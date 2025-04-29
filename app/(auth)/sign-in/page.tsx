@@ -8,7 +8,10 @@ const Page = () => (
   <AuthForm
     type="SIGN_IN"
     schema={signInSchema}
-    defaultValues={{ email: "", password: "" }}
+    defaultValues={{
+      email: "",
+      password: "",
+    }}
     onSubmit={() => {}}
   />
 );
