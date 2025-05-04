@@ -4,18 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e93b412-d62a-4f7a-8777-fcf302e81c68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/api/auth/imagekit/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/config.ts" afterDir="false" />
+    <list default="true" id="9e93b412-d62a-4f7a-8777-fcf302e81c68" name="Changes" comment="Sign in sign up sayfaları fonksiyonel hale getirildi database yapıldı ve kayıt olan kullanıcılar databaseye ekleniyor&#10;Profilim sayfası yapıldı log out butonu eklendi &#10;&#10;drizzle, neon ve auth.js kullanıldı">
+      <change afterPath="$PROJECT_DIR$/app/(root)/my-profile/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/auth/auth/[...nextauth]/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/drizzle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/schema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drizzle.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/actions/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(auth)/sign-in/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-in/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(auth)/sign-up/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-up/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/AuthForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/AuthForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ImageUpload.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ImageUpload.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,11 +133,45 @@
       <workItem from="1745861446698" duration="9000" />
       <workItem from="1745878520362" duration="6163000" />
       <workItem from="1745888074006" duration="1335000" />
-      <workItem from="1745889452768" duration="1991000" />
+      <workItem from="1745889452768" duration="2555000" />
+      <workItem from="1746301209861" duration="14338000" />
     </task>
+    <task id="LOCAL-00001" summary="Görsel işleme ve yükleme için ImageKit API’si entegre edildi.&#10;&#10;sign up sayfasına görsel yükleme özelliği eklendi">
+      <option name="closed" value="true" />
+      <created>1745891648200</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745891648200</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Görsel işleme ve yükleme için ImageKit API’si entegre edildi.&#10;&#10;sign up sayfasına görsel yükleme özelliği eklendi">
+      <option name="closed" value="true" />
+      <created>1745891779925</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745891779925</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Görsel işleme ve yükleme için ImageKit API’si entegre edildi.&#10;&#10;sign up sayfasına görsel yükleme özelliği eklendi" />
+    <MESSAGE value="Sign in sign up sayfaları fonksiyonel hale getirildi database yapıldı ve kayıt olan kullanıcılar databaseye ekleniyor&#10;Profilim sayfası yapıldı log out butonu eklendi &#10;&#10;drizzle, neon ve auth.js kullanıldı" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sign in sign up sayfaları fonksiyonel hale getirildi database yapıldı ve kayıt olan kullanıcılar databaseye ekleniyor&#10;Profilim sayfası yapıldı log out butonu eklendi &#10;&#10;drizzle, neon ve auth.js kullanıldı" />
   </component>
 </project>
